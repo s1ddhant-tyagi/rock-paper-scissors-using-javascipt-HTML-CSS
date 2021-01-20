@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(49, 47, 82);
+}
+
+header
+{
+    background-color: azure;
+    padding: 15px 0;
+    /* margin-bottom: 10vh; */
+}
+
+header h1 
+{
+    color: rgb(49, 47, 82);;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+    background-color: azure;
+}
+
+.score-board
+{
+    border: 2px solid white;
+    width: 30vw;
+    color: azure;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-family: 'Asap', sans-serif;
+    font-size: 40px;
+    position: relative;
+    margin: 50px auto;
+}
+
+.score
+{
+    display: inline;
+}
+
+.badge
+{
+    background-color: #d97a43;
+    padding: 5px 10px;
+    color: azure;
+    text-align: center;
+    font-size: 13px;
+    width: 77px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.user-label
+{
+    position: absolute;
+    top: 24px;
+    left: -41px;
+}
+
+.computer-label
+{
+    position: absolute;
+    top: 24px;
+    right: -40px;
+}
+
+.chosen
+{
+    /* background-color: #d97a43; */
+    padding: 5px 10px;
+    color:  #e98c56;
+    text-align: center;
+    font-size: 13px;
+    width: 77px;
+    /* border: 2px solid white; */
+    /* border-radius: 2px; */
+    display: none;
+    font-weight: bold;
+}
+
+.user-choice-label
+{
+    position: absolute;
+    top: 24px;
+    left: -120px;
+}
+
+.computer-choice-label
+{
+    position: absolute;
+    top: 24px;
+    right: -120px;
+}
+
+.score-container
+{
+    text-align: center;
+    /* width: 200px; */
+}
+
+.result
+{
+    font-size: 30px;
+    font-family: 'Asap', sans-serif;
+    color: azure;
+    width: 70%;
+    margin: 90px auto 30px auto;
+    text-align: center;
+}
+
+.choice-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.choice
+{
+    cursor: pointer;
+}
+
+.choice-container img
+{
+    border: 4px solid azure;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    transition: background-color .3s, border 0s;
+    height: 76px;
+    width: 76px;
+}
+
+.choice-container img:hover
+{
+    background-color: #e98c56;
+}
+
+.rock-img:active
+{
+    border: 7px solid azure;
+}
+
+.paper-img:active
+{
+    border: 7px solid azure;
+}
+
+.scissors-img:active
+{
+    border: 7px solid azure;
+}
+
+.message
+{
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+    color: azure;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.winlose
+{
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+    color: #e98c56;
+    font-family: 'Asap';
+}
